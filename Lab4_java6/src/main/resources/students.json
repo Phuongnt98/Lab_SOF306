@@ -1,0 +1,54 @@
+[
+	{
+		"name" : "Nguyen Thi A",
+		"gender" : true,
+		"marks" : 9.5,
+		"contact" : {
+			"email" : "nguyenthiA@gmail.com",
+			"phone" : "0123456789"
+		}, 
+		"subjects" : ["WEB205", "COM108"]
+	},
+	{
+		"name" : "Nguyen Van B",
+		"gender" : false,
+		"marks" : 8.5,
+		"contact" : {
+			"email" : "nguyenvandat2980017@gmail.com",
+			"phone" : "0123456789",
+			"address" : "HN"
+		}, 
+		"subjects" : ["WEB205", "COM108", "WEB207"]
+	},
+	{
+		"name" : "Nguyen Van C",
+		"gender" : true,
+		"marks" : 9.5,
+		"contact" : {
+			"email" : "nguyenvandat2980017@gmail.com",
+			"phone" : "0123456789"
+		}, 
+		"subjects" : ["WEB205"]
+	},
+	{
+		"name" : "Nguyen Van D",
+		"gender" : true,
+		"marks" : 9.5,
+		"contact" : {
+			"email" : "nguyenvandat2980017@gmail.com",
+			"phone" : "0123456789",
+			"address": "HN"
+		}, 
+		"subjects" : ["WEB205", "COM108", "WEB3036"]
+	},
+	{
+		"name" : "Nguyen Van D",
+		"gender" : false,
+		"marks" : 5.5,
+		"contact" : {
+			"email" : "nguyenvandat2980017@gmail.com",
+			"phone" : "0123456789"
+		}, 
+		"subjects" : ["COM108"]
+	}
+]

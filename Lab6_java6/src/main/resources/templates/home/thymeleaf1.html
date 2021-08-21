@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<nav th:replace="~{/home/_menu::nav}"></nav>
+	<hr>
+	<h2 th:text="${message}"></h2>
+	<hr>
+	<h3 th:unless="${#request.remoteUser}"> Chua dang nhap!</h3>
+	<ul th:if= "${#request.remoteUser}">
+		<li th:if="${#request.isUserInRole('ADMIN')}">ADMIN</li>
+		<li th:if="${#request.isUserInRole('USER')}">USER</li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,10 @@
+	{
+		"name" : "Nguyen Thi A",
+		"gender" : true,
+		"marks" : 9.5,
+		"contact" : {
+			"email" : "nguyenthiA@gmail.com",
+			"phone" : "0123456789"
+		}, 
+		"subjects" : ["WEB205", "COM108"]
+	}
